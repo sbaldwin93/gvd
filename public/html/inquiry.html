@@ -1,0 +1,64 @@
+		<div class="container" id="form">
+			<form>
+				<div class="form-group">
+					<input class="form-control" type="text" ng-model="post.name" placeholder="Full name">
+				</div>
+				<div class="form-group">
+					<input class="form-control" type="email" ng-model="post.email" placeholder="Email">
+				</div>
+				<div class="form-group">
+					<input class="form-control" type="text" ng-model="post.number" placeholder="Phone number">
+				</div>
+				<div class="form-group">
+					<input class="form-control" type="text" ng-model="post.company" placeholder="Company name">
+				</div>
+				<div class="form-group">
+					<textarea class="form-control" type="text" ng-model="post.description" placeholder="Description"></textarea>
+				</div>
+				<button class="btn btn-default" id="modal-button" ng-click="sendPost()" data-toggle="modal" data-target="#modal-2">SUBMIT</button>
+			</form>
+		</div>
+
+
+
+		<!-- MODALS -->
+		<div class="modal" id="modal-2">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header" id="header">
+						<button type="button" id="close" class="close" data-dismiss="modal">&times;</button>
+						<h3 class="modal-title">G V D</h3>
+					</div>
+					<div class="modal-body" id="body">
+						<h3>Thank you for your submission.</h3>
+						<h5>You will be contacted within the next 24 hours.</h5>
+					</div>
+					<div class="modal-footer" id="footer">		
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="modal" id="modal-1">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h3 class="modal-title"></h3>
+					</div>
+					<div class="modal-body">
+						<form action="/auth/login" method="post">
+						<div class="form-group">
+							<input class="form-control" type="username" name="username" placeholder="Username">
+						</div>
+						<div class="form-group">
+							<input class="form-control" type="password" name="password" placeholder="Password">
+						</div>
+						<button type="submit" id="submit" class="btn btn-default">login</button>
+					</form>
+					</div>
+					<div class="modal-footer">		
+					</div>
+				</div>
+			</div>
+		</div>

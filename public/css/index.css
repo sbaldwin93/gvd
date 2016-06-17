@@ -1,0 +1,234 @@
+body {
+	background-color: white;
+}
+.navbar-default .navbar-brand {
+	color: #00cccc;
+	font-size: 28px;
+	font-family: 'Josefin Sans', sans-serif;
+}
+.navbar {
+	background-color: white;
+	margin: 0px;
+	border-radius: 0px;
+}
+.navbar-default .navbar-nav > li > a {
+	color: #00cccc;
+}
+.nav-title {
+	color: #00cccc;
+	font-family: 'Montserrat', sans-serif;
+}
+.nav-con {
+	color: #666666;
+	font-family: 'Montserrat', sans-serif;
+}
+.separator {
+	height: 1px;
+	width: 100%;
+	background-color: #e7e7e7;
+}
+.logo {
+	font-family: 'Josefin Sans', sans-serif;
+	display: inline-block;
+	color: #00cccc;
+}
+.price {
+	display: inline-block;
+	color: #00cccc;
+}
+.contact {
+	display: inline-block;
+	color: #00cccc;
+}
+.picture-1 {
+	margin: auto;
+	width: 100vw;
+	height: 60vh;
+	background:
+	linear-gradient(
+		rgba(38, 38, 38, 0.75),
+		rgba(38, 38, 38, 0.75)
+		),
+	url(http://www.electronicsecuritysummit.com/wp-content/uploads/2016/03/10-Web-Design-Trends-for-2015.png);
+	background-size: 100vw 60vh;
+	background-repeat: no-repeat;
+}
+.picture-2 {
+	margin: auto;
+	width: 100vw;
+	height: 60vh;
+	background:
+	linear-gradient(
+		rgba(38, 38, 38, 0.75),
+		rgba(38, 38, 38, 0.75)
+		),
+	url(http://pathways2purpose.org/wp-content/uploads/2015/05/Dollarphotoclub_60443642.jpg);
+	background-size: 100vw 60vh;
+	background-repeat: no-repeat;
+}
+.picture-3 {
+	margin: auto;
+	width: 100vw;
+	height: 60vh;
+	background:
+	linear-gradient(
+		rgba(38, 38, 38, 0.75),
+		rgba(38, 38, 38, 0.75)
+		),
+	url(https://i.ytimg.com/vi/Jh0er2pRcq8/maxresdefault.jpg);
+	background-size: 100vw 60vh;
+	background-repeat: no-repeat;
+}
+.tech-emblems {
+	text-align: center;
+}
+.tech-pic {
+	margin: 10px;
+	height: 50px;
+	width: 60px;
+}
+.head {
+	width: 100vw;
+	height: 100px;
+	position: fixed;
+	text-align: center;
+}
+#form {
+	margin-top: 30px;
+}
+#button {
+	padding-left: 40px;
+	padding-right: 40px;
+	margin-top: 10px;
+	color: white;
+	background-color: transparent;
+	border: 2px solid #00cccc;
+	border-radius: 5px;
+}
+#modal-button {
+	border: 1px solid #00cccc;
+	color: #00cccc;
+	width: 100%;
+}
+.content {
+	font-family: 'Montserrat', sans-serif;
+	padding-top: 30px;
+	line-height: 40px;
+	font-size: 35px;
+	width: 60vw;
+	margin: auto;
+	color: white;
+	border-radius: 100px;
+	border-top-right-radius: 0px;
+	border-top-left-radius: 0px;
+}
+.pic-2-content {
+	font-family: 'Montserrat', sans-serif;
+	padding-top: 30px;
+	line-height: 35px;
+	font-size: 30px;
+	width: 60vw;
+	margin: auto;
+	color: white;
+	border-radius: 100px;
+	border-top-right-radius: 0px;
+	border-top-left-radius: 0px;
+}
+.pic-3-content {
+	font-family: 'Montserrat', sans-serif;
+	padding-top: 30px;
+	line-height: 30px;
+	font-size: 22px;
+	width: 60vw;
+	margin: auto;
+	color: white;
+	border-radius: 100px;
+	border-top-right-radius: 0px;
+	border-top-left-radius: 0px;
+}
+.today {
+	line-height: 60px;
+	color: #00cccc;
+	font-size: 60px;
+}
+.perfection {
+	line-height: 40px;
+	color: #00cccc;
+	font-size: 40px;
+}
+.best {
+	line-height: 40px;
+	color: #00cccc;
+	font-size: 40px;
+}
+.inquiry {
+	color: white;
+	text-decoration: none;
+}
+.inquiry:hover {
+	color: white;
+	text-decoration: none;
+}
+.carousel-inner {
+	height: 60vh;
+	width: 100vw;
+}
+.glyphicon {
+	margin-top: 25vh;
+	border: 1px solid white;
+	border-radius: 100px;
+	padding: 15px;
+	vertical-align: middle;
+	color: white;
+	box-shadow: 0px 0px 20px black;
+}
+.emblem-container {
+	background-color: #262626;
+	text-align: center;
+}
+.emblems {
+	height: 120px;
+	width: 100%;
+	vertical-align: top;
+}
+.description {
+	margin: 10px;
+	display: inline-block;
+	width: 90px;
+	text-align: center;
+}
+.des {
+	color: white;
+	font-family: 'Josefin Sans', sans-serif;
+}
+.fa-mobile, .fa-desktop, .fa-tablet {
+	color: #00cccc;
+	border: 1px solid white;
+	border-radius: 100px;
+}
+.fa-desktop {
+	padding: 20px;
+}
+.fa-tablet {
+	padding-top: 21px;
+	padding-bottom: 21px;
+	padding-left: 26px;
+	padding-right: 26px;
+}
+.fa-mobile {
+	padding-top: 21px;
+	padding-bottom: 21px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.bottom {
+	height: 450px;
+	width: 100vw;
+	background-color: #00cccc;
+	margin-top: 20px;
+}
+.bottom-2 {
+	height: 120px;
+	width: 100vw;
+	background-color: #262626;
+}
