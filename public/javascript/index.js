@@ -69,10 +69,6 @@
 					templateUrl: '/html/inquiry.html', 
 					controller : 'mainController'
 				})
-				.when('/admin', {
-					templateUrl: '/html/admin.html',
-					controller : 'mainController'
-				})
 				.when('/tech', {
 					templateUrl: 'html/tech.html',
 					controller: 'mainController'
