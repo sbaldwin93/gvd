@@ -11,6 +11,7 @@
 					description: $scope.post.description
 				}
 				$http.post('/api/post/posts', request).success(function(response) {
+
 					$scope.posts = response;
 					$scope.post.name = "";
 					$scope.post.email = "";
@@ -72,8 +73,31 @@
 				.when('/tech', {
 					templateUrl: 'html/tech.html',
 					controller: 'mainController'
+				})
+				.when('/admin', {
+					templateUrl: 'html/admin.html',
+					controller: 'mainController'
+				})
+				.when('/signup', {
+					templateUrl: 'html/signup.html',
+					controller: 'mainController'
 				})		
 		}])
 	angular.module('gvd')
 		.controller('mainController', mainController);	
 }());
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
